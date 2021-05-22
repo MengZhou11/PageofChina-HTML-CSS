@@ -1,0 +1,203 @@
+/* Index.css for CSP149 project
+  Author: Meng Zhou
+  Date: 02/22/2019
+*/
+/*color gradient*/
+div{
+	height:0.8em;	
+}
+
+img {
+	display:none;
+}
+
+p{
+	padding-top:0.6em;
+	Line-Height:1.2em;
+
+}
+
+#mik{
+	width:80%;
+}
+
+#d{
+	display:none;
+}
+
+/* index-6*/
+
+
+/* Body styles*/ 
+body {
+	color: white;
+	text-align: left;
+	background:black;
+	}
+
+	
+/*change color for span*/
+p span{
+	color:rgb(254, 185, 200);
+}
+/*aside span{
+	color:rgb(254, 185, 200);
+}*/
+
+
+aside {
+	color:white;
+}
+
+
+ /*Nav styles*/
+header ul{
+
+	text-align:center;
+	background-color:rgb(245, 121, 162);
+}
+header ul li{
+
+	list-style-type: none;
+	font:0.8em;
+	font-weight:bold;
+	display:inline;
+}
+
+header ul li a{
+	color:black;
+}
+/*nav ul li a: hover styles*/
+
+ol li{
+	text-decoration: underline
+}
+
+
+#Info{
+	width:28%;
+	height:15em;
+	margin-left:4em;
+}
+
+#more 
+{
+	width:55%;
+	float:left;
+	height:15em;
+}
+
+
+
+/* fieldset styles*/
+
+/*#survey.form{
+	width:35%;
+}
+
+#caption {
+	text-align:left;
+	padding-top:2em;
+	padding-left:1.5em;
+	color:red;
+	
+}
+
+legend {
+	text-align:center;
+} 
+
+label {
+
+	font-size:0.9em;
+	
+}
+
+fieldset.optionGroup{
+	border-width:0px;
+}
+
+#age{
+	border-width:0px;
+	width:12em;
+	font-size:0.8em;
+}
+
+
+input[type="submit"],input[type="reset"]
+{
+	display:inline;
+	float:none;
+	height:40px;
+	width:130px;
+	margin-top:2em;
+	margin-right:3em;
+}
+form p {
+	text-align:center;
+}
+
+textarea {
+	display:block;
+	height:50px;
+	width:200px;
+	margin:10px 0px;
+	text-align:left;
+}
+
+/* footer styles */
+
+/*figcaption {
+	text-align:left;
+	color:rgb(177,177,243);
+}
+
+figure span {
+	color: white;
+}*/
+
+footer {
+	background-color:rgb(245, 121, 162);
+	clear:left;
+	color:black;
+	margin-top:0.5em;
+}
+
+
+
+
+
+/*table css*/
+/*Meng Zhou
+03/15/2019
+Personal home page table styles*/
+
+/*table styles*/
+table{
+	border:2px outset white;
+	border-color:white;
+	width:80%;
+
+}
+
+caption{
+	font-size:1.5em;
+}
+
+table thead tr th, table tbody tr th,table tbody tr td{
+	border:1px solid white;
+
+	height:1.5em;
+}
+table thead{
+	font-size:1.2em;
+	background-color:blue;
+}
+
+table tbody tr th{
+	color:rgb(44, 153, 248);
+}
+
+.standout{
+	font-weight:bold;
+}

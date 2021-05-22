@@ -1,0 +1,295 @@
+/* Index.css for CSP149 project
+  Author: Meng Zhou
+  Date: 02/22/2019
+*/
+/*color gradient*/
+div{
+	height:0.8em;	
+}
+
+#mik{
+	padding-left:3em; 
+	padding-right:3em;
+}
+
+
+
+p{
+	padding-top:0.6em;
+	Line-Height:1.2em;
+
+}
+
+
+/*
+body {
+    background: -o-linear-gradient(black, rgb(120, 80, 80));
+    background: -webkit-linear-gradient(bottom, black, rgb(120, 80, 80));
+    background: -ms-linear-gradient(black, rgb(120, 80, 80));
+    background: -moz-linear-gradient(black, rgb(120, 80, 80));
+    background: linear-gradient(bottom, black 90&, rgb(120, 80, 80) 80%);
+}
+
+/* index-3*/
+
+#history {
+	float:right;
+	width:50%;
+	color:rgb(109, 186, 206);
+	border:3px solid gray;
+
+}
+
+#hist {
+	float:right;
+
+}
+
+#culture {
+	width:40%; 
+	float:left;
+	padding-top:0em;
+}
+
+#food {
+	float:left; 
+	width:40%; 
+}
+
+#belifes {
+	padding-left:1em;
+}
+
+#contact {
+	text-align:center;
+}
+
+#contact h3 {
+	color:rgb(219, 130, 15);
+}
+/* index-6*/
+
+
+/* Body styles*/ 
+body {
+	color: white;
+	text-align: left;
+	padding-left:7em;
+	padding-right:7em;
+	line-height:1.2em;
+	background:black;
+	}
+	body p{
+		padding-left:0.8em;
+	}
+	
+/*change color for span*/
+p span{
+	color:rgb(254, 185, 200);
+}
+/*aside span{
+	color:rgb(254, 185, 200);
+}*/
+
+#call {
+	padding-left:5em;
+}
+
+iframe {
+	display:block;
+	text-align:left;
+	float:left;
+	width:50%;
+	padding-left:3.5em;
+}
+
+aside {
+	float:left;
+	color:white;
+	margin-bottom:1.5em;
+}
+
+aside p{ 
+	padding-left:2em;
+}
+aside img{
+	padding-left:7em;
+}
+
+/* Nav styles*/ 
+header ul{
+
+	text-align:center;
+	background-color:rgb(245, 121, 162);
+}
+header ul li{
+	
+	list-style-type: none;
+	padding-left:1.2em;
+	padding-right:1.2em;
+	font:0.8em;
+	font-weight:bold;
+	display:inline;	
+}
+
+header ul li a{
+	color:black;
+}
+/*nav ul li a: hover styles*/
+header ul li:hover{
+	
+	background-color: rgb(248, 181, 168);
+}
+
+ol li{
+	list-style-type:none;
+	text-decoration: underline
+}
+
+
+/*
+figure {
+	float:left;
+	padding-top:3em;
+}
+
+figure img{
+	padding-left:3em;
+}
+*/
+
+/*form styles*/
+#Info{
+	width:28%;
+	float:left;
+	height:15em;
+	margin-left:4em;
+}
+
+#more 
+{
+	width:55%;
+	float:left;
+	height:15em;
+}
+
+/* fieldset styles*/
+
+#survey.form{
+	width:35%;
+}
+
+#caption {
+	text-align:left;
+	padding-top:2em;
+	padding-left:1.5em;
+	color:red;
+	
+}
+
+
+legend {
+	text-align:center;
+} 
+
+label {
+
+	font-size:0.9em;
+	
+}
+
+fieldset.optionGroup{
+	border-width:0px;
+}
+
+#age{
+	border-width:0px;
+	width:12em;
+	font-size:0.8em;
+}
+
+
+input[type="submit"],input[type="reset"]
+{
+	display:inline;
+	float:none;
+	height:40px;
+	width:130px;
+	margin-top:2em;
+	margin-right:3em;
+}
+form p {
+	text-align:center;
+}
+
+textarea {
+	display:block;
+	height:50px;
+	width:200px;
+	margin:10px 0px;
+	text-align:left;
+}
+
+/* footer styles */
+
+/*figcaption {
+	text-align:left;
+	color:rgb(177,177,243);
+}
+
+figure span {
+	color: white;
+}*/
+
+footer {
+	background-color:rgb(245, 121, 162);
+	clear:left;
+	margin-top:1.5em;
+	color:black;
+}
+footer span{
+	padding: 1em;
+}
+
+
+
+
+
+
+/*table css*/
+/*Meng Zhou
+03/15/2019
+Personal home page table styles*/
+
+/*table styles*/
+table{
+	text-align:center;
+	border:2px outset white;
+	margin-left:5em;
+	border-color:white;
+	width:80%;
+
+}
+
+caption{
+	font-size:1.5em;
+	margin-bottom:1em;
+}
+
+table thead tr th, table tbody tr th,table tbody tr td{
+	border:1px solid white;
+	padding:5px 10px;
+	height:1.5em;
+}
+table thead{
+	font-size:1.2em;
+	background-color:blue;
+}
+
+table tbody tr th{
+	color:rgb(44, 153, 248);
+}
+
+.standout{
+	font-weight:bold;
+}
